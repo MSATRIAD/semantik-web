@@ -85,7 +85,7 @@ https://sanghyang-tatwa-ajnyana.streamlit.app/
   - **Semua Baris**: Menampilkan seluruh translasi naskah
   - **Recto/Verso Dropdown**: Menampilkan translasi per sisi halaman
   - **Pencarian**: Masukkan keyword untuk mencari baris yang mengandung kata tersebut
-  - **Informasi**: Memberikan informasi mengenai 
+  - **Informasi**: Memberikan informasi mengenai website Sanghyang Tatwa Ajnyana 
 
 ---
 
