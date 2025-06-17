@@ -55,23 +55,6 @@ https://sanghyang-tatwa-ajnyana.streamlit.app/
    - Gunakan pengaturan default dan beri nama repository
    - Upload file RDF (format Turtle) dari folder repository lokal ke GraphDB
 
-### 🚀 Pembuatan Endpoint
-
-1. **Ubah `SPARQL_ENDPOINT` di `app.py`**:
-   ```python
-   SPARQL_ENDPOINT = "http://localhost:7200/repositories/NamaRepository"
-   ```
-
-2. **Instal dependensi**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Jalankan aplikasi**:
-   ```bash
-   streamlit run app.py
-   ```
-
 ---
 
 ## 🧭 Panduan Penggunaan
