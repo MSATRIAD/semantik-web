@@ -75,3 +75,5 @@ https://sanghyang-tatwa-ajnyana.streamlit.app/
 ## 🔗 Link GitHub
 
 📁 Repository GitHub: [https://github.com/MSATRIAD/semantik-web.git](https://github.com/MSATRIAD/semantik-web.git)
+
+https://www.google.com/imgres?q=image%20url&imgurl=https%3A%2F%2Fwww.wikihow.com%2Fimages%2Fthumb%2F4%2F41%2FGet-the-URL-for-Pictures-Draft-Step-1.jpg%2Fv4-460px-Get-the-URL-for-Pictures-Draft-Step-1.jpg&imgrefurl=https%3A%2F%2Fwww.wikihow.com%2FGet-the-URL-for-Pictures&docid=VCxJJCKhpGWazM&tbnid=sjkm4AzSKBGxGM&vet=12ahUKEwiD-pGdvviNAxXV2TgGHUh5AqkQM3oECBcQAA..i&w=460&h=345&hcb=2&ved=2ahUKEwiD-pGdvviNAxXV2TgGHUh5AqkQM3oECBcQAA
