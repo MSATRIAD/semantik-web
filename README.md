@@ -78,7 +78,7 @@ https://sanghyang-tatwa-ajnyana.streamlit.app/
 
 ---
 
-## 🖼️ Contoh Tampilan Aplikasi
+## 🖼️ Contoh dan Hasil Aplikasi
 
 ### Halaman Pencarian
 ![Contoh Hasil 1](ContohHasil1.png)
