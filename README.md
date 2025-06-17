@@ -33,10 +33,13 @@ Aplikasi ini merupakan website translasi berbasis *Semantic Web* yang menampilka
 - Highlight otomatis pada keyword hasil pencarian
 
 ---
+
 ## \U0001F30D Akses Aplikasi Melalui URL Public
 
 **Website Dapat Melalui URL Di Bawah ini**
 https://sanghyang-tatwa-ajnyana.streamlit.app/
+
+---
 
 ## ⚙️ Instalasi Aplikasi Secara Lokal
 
