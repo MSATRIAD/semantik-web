@@ -70,10 +70,18 @@ https://sanghyang-tatwa-ajnyana.streamlit.app/
   - **Pencarian**: Masukkan keyword untuk mencari baris yang mengandung kata tersebut
   - **Informasi**: Memberikan informasi mengenai website Sanghyang Tatwa Ajnyana 
 
-!(ContohHasil.png)
 ---
 
 ## 🔗 Link GitHub
 
 📁 Repository GitHub: [https://github.com/MSATRIAD/semantik-web.git](https://github.com/MSATRIAD/semantik-web.git)
 
+---
+
+## 🖼️ Contoh Tampilan Aplikasi
+
+### Halaman Pencarian
+![Contoh Hasil 1](ContohHasil1.png)
+
+### Hasil dengan Keyword
+![Contoh Hasil 2](ContohHasil2.png)
