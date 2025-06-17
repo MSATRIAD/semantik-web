@@ -80,8 +80,8 @@ https://sanghyang-tatwa-ajnyana.streamlit.app/
 
 ## 🖼️ Contoh dan Hasil Aplikasi
 
-### Halaman Pencarian
+### Halaman Utama
 ![Contoh Hasil 1](ContohHasil1.png)
 
-### Hasil dengan Keyword
+### Halaman per Recto/Verso
 ![Contoh Hasil 2](ContohHasil2.png)
