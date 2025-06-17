@@ -70,6 +70,7 @@ https://sanghyang-tatwa-ajnyana.streamlit.app/
   - **Pencarian**: Masukkan keyword untuk mencari baris yang mengandung kata tersebut
   - **Informasi**: Memberikan informasi mengenai website Sanghyang Tatwa Ajnyana 
 
+!(ContohHasil.png)
 ---
 
 ## 🔗 Link GitHub
