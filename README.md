@@ -34,7 +34,7 @@ Aplikasi ini merupakan website translasi berbasis *Semantic Web* yang menampilka
 
 ---
 
-## \U0001F30D Akses Aplikasi Melalui URL Public
+## 🌏 Akses Aplikasi Melalui URL Public
 
 **Website Dapat Melalui URL Di Bawah ini**
 https://sanghyang-tatwa-ajnyana.streamlit.app/
