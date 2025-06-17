@@ -424,20 +424,40 @@ def get_organized_lines():
     return int(result["results"]["bindings"][0]["jumlah"]["value"])
 
 # Helper function to render content cards
-def render_content_card(entry):
+
+import re
+
+def highlight_keyword(text, keyword):
+    pattern = re.compile(re.escape(keyword), re.IGNORECASE)
+    return pattern.sub(
+        lambda m: f"<span style='background-color: yellow; color: black; font-weight: bold;'>{m.group(0)}</span>",
+        text
+    )
+
+
+def render_content_card(entry, keyword=None):
+    translit = entry['transliterasi']
+    terjemah = entry['terjemahan']
+
+    if keyword:
+        translit = highlight_keyword(translit, keyword)
+        terjemah = highlight_keyword(terjemah, keyword)
+
     st.markdown(f"""
     <div class="content-card animate-fade-in">
         <div class="uri-text">📍 {entry['id']}</div>
         <div class="transliteration">
             <strong>📝 Transliterasi:</strong><br>
-            {entry['transliterasi']}
+            {translit}
         </div>
         <div class="translation">
             <strong>📚 Terjemahan:</strong><br>
-            {entry['terjemahan']}
+            {terjemah}
         </div>
     </div>
     """, unsafe_allow_html=True)
+
+
 
 # Sidebar dengan styling yang ditingkatkan
 st.sidebar.markdown("# 🏛️ Website Translasi")
@@ -574,12 +594,12 @@ with tab3:
             if recto:
                 with st.expander(f"📄 Recto ({len(recto)} hasil)", expanded=True):
                     for res in recto:
-                        render_content_card(res)
+                        render_content_card(res, keyword)
 
             if verso:
                 with st.expander(f"📄 Verso ({len(verso)} hasil)", expanded=True):
                     for res in verso:
-                        render_content_card(res)
+                        render_content_card(res, keyword)
 
 with tab4:
     st.markdown("Sistem halaman dalam naskah Sanghyang Tatwa Ajnyana menggunakan sistem penomoran khas naskah Sunda Kuna berbahan daun gebang, dan disusun dalam bentuk lempir (lembar daun) yang ditulis bolak-balik. Setiap lempir diberi nomor dalam aksara Buda dan terdiri dari dua sisi:")
