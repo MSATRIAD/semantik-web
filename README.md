@@ -3,6 +3,16 @@
 
 Aplikasi ini merupakan website translasi berbasis *Semantic Web* yang menampilkan transliterasi dan terjemahan naskah *Sanghyang Tatwa Ajnyana*. Dibangun menggunakan Python, Streamlit, dan GraphDB sebagai SPARQL endpoint RDF.
 
+## 👥 Anggota Kelompok
+
+| Nama                    | NPM           |
+|-------------------------|---------------|
+| Muhammad Faiz Fahri     | 140810220002  |
+| Marciano Lie            | 140810220022  |
+| Muhammad Satria Dharma  | 140810220080  |
+
+---
+
 ## 📦 Daftar Isi
 
 - [Fitur Aplikasi](#fitur-aplikasi)
@@ -23,8 +33,12 @@ Aplikasi ini merupakan website translasi berbasis *Semantic Web* yang menampilka
 - Highlight otomatis pada keyword hasil pencarian
 
 ---
+## \U0001F30D Akses Aplikasi Melalui URL Public
 
-## ⚙️ Instalasi Aplikasi
+**Website Dapat Melalui URL Di Bawah ini**
+https://sanghyang-tatwa-ajnyana.streamlit.app/
+
+## ⚙️ Instalasi Aplikasi Secara Lokal
 
 1. **Clone repository ini** ke local:
    ```bash
@@ -40,7 +54,7 @@ Aplikasi ini merupakan website translasi berbasis *Semantic Web* yang menampilka
 
 ---
 
-## 🚀 Menjalankan Aplikasi
+## 🚀 Pembuatan Endpoint
 
 1. **Ubah `SPARQL_ENDPOINT` di `app.py`**:
    ```python
@@ -71,16 +85,6 @@ Aplikasi ini merupakan website translasi berbasis *Semantic Web* yang menampilka
   - **Recto/Verso Dropdown**: Menampilkan translasi per sisi halaman
   - **Pencarian**: Masukkan keyword untuk mencari baris yang mengandung kata tersebut
   - **Highlight**: Hasil pencarian akan otomatis menyoroti keyword
-
----
-
-## 👥 Anggota Kelompok
-
-| Nama                    | NPM           |
-|-------------------------|---------------|
-| Muhammad Faiz Fahri     | 140810220002  |
-| Marciano Lie            | 140810220022  |
-| Muhammad Satria Dharma  | 140810220080  |
 
 ---
 
